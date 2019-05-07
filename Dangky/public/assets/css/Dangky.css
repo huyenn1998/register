@@ -1,0 +1,29 @@
+body{
+	background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(bg.jpg);
+	height: 100px;
+	background-size: cover; 
+	background-position: center;  
+}
+
+.container{
+	width: 360px;
+	padding: 5%0 0;
+	margin: auto;
+}
+
+.main{
+	position:relative;
+	
+	background: #ffffff;
+	max-width: 360px;
+	margin: 0 auto 100px;
+	padding: 25px;
+	text-align: left;
+}
+
+label.error{
+
+	color:#b33939;
+
+}
+

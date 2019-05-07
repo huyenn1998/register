@@ -1,0 +1,45 @@
+form{
+	width: 500px;
+	
+    margin-left: auto; 
+    margin-right: auto;
+	
+}
+form input{
+	margin-bottom: 10px;
+}
+
+label.error{
+	color:#b33939;
+}
+
+
+
+/*responsive*/
+
+
+
+
+
+
+/*tablet */
+
+@media screen and (min-width: 600px ){
+
+
+.main:before, .main:after{
+	content:"";
+	display:table;
+	clear:both
+	 }
+
+.main{
+	max-width: 100%
+}	 
+.content{
+	width: 63.5%
+	float:left;
+	margin-right: 1.5%
+}
+
+}
